@@ -1,0 +1,2 @@
+Before I start: This will be my first ever mini-project to begin my coding journey. I am excited and I hope to learn as much as possible and to enjoy the process. My favorite quote right now is, "Practice makes progress, there is no perfect." This is my mentality for my coding journey. 
+The journey begins now.
