@@ -1,11 +1,59 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>GOOGLE</title>
+        <title>Google Clone</title>
+        <style>
+            .navbar { 
+                list-style-type: none;
+                margin: 0;
+                padding: 0;              
+            }
+
+            .google-image {
+                 text-align: center;
+                 padding-top: 77px;
+            }
+
+            .search-bar {
+                text-align: center;
+                padding-top: 45px;
+            }
+          
+          #about {
+            float: left;
+            padding: 8px;
+          }
+
+          #store {
+            float: left;
+            padding: 8px;
+          }
+
+          #gmail {
+            float: right;
+            padding: 8px;
+          }
+
+          #images {             
+            float: right;
+            padding: 8px;           
+          }
+
+        </style>
     </head>
     <body>
-        <a href="."><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Image"></a>
-        <form>
+        <ul class="navbar">
+            <li id="about"><a href="#">About</a></li>
+            <li id="store"><a href="#">Store</a></li>
+            <li id="gmail"><a href="#">Gmail</a></li>
+            <li id="images"><a href="#">Images</a></li>
+        </ul>
+        <p>
+        </p>
+        <div class="google-image">
+            <a href="."><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Image"></a>
+        </div>
+        <form class="search-bar">
             <input type="text" placeholder="Search">
         </form>
     </body>
