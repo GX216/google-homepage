@@ -2,53 +2,37 @@
 <html>
     <head>
         <title>Google Clone</title>
-        <style>
-            .navbar { 
-                list-style-type: none;
-                margin: 0;
-                padding: 0;              
-            }
-
-            .google-image {
-                 text-align: center;
-                 padding-top: 77px;
-            }
-
-            .search-bar {
-                text-align: center;
-                padding-top: 45px;
-            }
-          
-          #about {
-            float: left;
-            padding: 8px;
-          }
-
-          #store {
-            float: left;
-            padding: 8px;
-          }
-
-          #gmail {
-            float: right;
-            padding: 8px;
-          }
-
-          #images {             
-            float: right;
-            padding: 8px;           
-          }
-
-        </style>
+        <!--This links to the google fonts page-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--This links to the stylesheet-->
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+      <div class="header">
+        <div class="header_left">
+          <a href="#">About</a>
+          <a href="#">Store</a>
+        </div>
+
+        <div class="header_right">
+          <a href="#">Gmail</a>
+          <a href="#">Images</a>
+          <a class="material-icons" href="#">apps</a>
+          <a class="material-icons" href="https://github.com/GX216" target="_blank">account_circle</a>
+        </div>
+      </div>
+      <!--
         <ul class="navbar">
             <li id="about"><a href="#">About</a></li>
             <li id="store"><a href="#">Store</a></li>
+            <li id="apps"><a href="#">Apps</a></li>
+            <li id="pfp"><a href="#">img</a></li>
             <li id="gmail"><a href="#">Gmail</a></li>
             <li id="images"><a href="#">Images</a></li>
         </ul>
+      -->
         <p>
+          <!--Adding space-->
         </p>
         <div class="google-image">
             <a href="."><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Image"></a>
@@ -56,5 +40,20 @@
         <form class="search-bar">
             <input type="text" placeholder="Search">
         </form>
+        <footer>
+          <div class="footerbar">
+            <div class="footer_right">
+
+            </div>
+
+            <div class="footer_center">
+
+            </div>
+
+            <div class="footer_left">
+
+            </div>
+          </div>
+        </footer>
     </body>
 </html>
